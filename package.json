@@ -1,0 +1,29 @@
+{
+  "name": "callback-ws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ad-m/callback-ws.git"
+  },
+  "author": "Adam Dobrawy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ad-m/callback-ws/issues"
+  },
+  "homepage": "https://github.com/ad-m/callback-ws#readme",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-easy-ws": "^1.1.2",
+    "koa-router": "^7.4.0",
+    "ws": "^7.0.0"
+  },
+  "devDependencies": {
+    "ava": "^2.0.0",
+    "nodemon": "^1.19.1"
+  }
+}
